@@ -1,5 +1,5 @@
 package offerJianZhi.tree;
-
+import util.TreeNode;
 public class RE_第k个节点 {
     int index = 0; //计数器
 

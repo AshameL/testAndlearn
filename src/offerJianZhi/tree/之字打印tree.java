@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import util.TreeNode;
+
 public class 之字打印tree {
     public ArrayList<ArrayList<Integer>> Print(TreeNode root) {
         if (root == null)
