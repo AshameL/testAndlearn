@@ -1,10 +1,10 @@
 package leetcode;
 
-import offerJianZhi.tree.TreeNode;
-
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+
+import util.TreeNode;
 
 public class No102_LevelOrder {
     class Pair {
@@ -25,7 +25,7 @@ public class No102_LevelOrder {
         q.offer(new Pair(root, 0));
         while (!q.isEmpty()) {
             Pair p = q.remove();
-            if (res.size()==p.num)
+            if (res.size() == p.num)
                 res.add(new LinkedList<>());
             res.get(p.num).add(p.treeNode.val);
 

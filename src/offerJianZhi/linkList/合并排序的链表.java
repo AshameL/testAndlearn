@@ -1,4 +1,6 @@
-package offerJianZhi;
+package offerJianZhi.linkList;
+
+import util.ListNode;
 
 public class 合并排序的链表 {
     // 递归版本

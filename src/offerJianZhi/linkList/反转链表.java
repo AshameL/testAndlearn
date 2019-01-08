@@ -1,4 +1,6 @@
-package offerJianZhi;
+package offerJianZhi.linkList;
+
+import util.ListNode;
 
 public class 反转链表 {
     // 非递归

@@ -1,6 +1,6 @@
 package leetcode;
 
-public class 递归200孤岛个数 {
+public class No200_孤岛个数 {
     public int numIslands(char[][] grid) {
         if (grid == null || grid.length == 0 || grid[0].length == 0)
             return 0;

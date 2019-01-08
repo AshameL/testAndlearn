@@ -1,6 +1,6 @@
 package leetcode;
 
-import offerJianZhi.tree.TreeNode;
+import util.*;
 
 public class No111_minDepth {
     public int minDepth(TreeNode root) {

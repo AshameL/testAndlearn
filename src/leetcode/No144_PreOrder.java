@@ -1,6 +1,6 @@
 package leetcode;
 
-import offerJianZhi.tree.TreeNode;
+import util.*;
 
 import java.util.LinkedList;
 import java.util.List;

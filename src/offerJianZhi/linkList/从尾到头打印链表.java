@@ -1,4 +1,6 @@
-package offerJianZhi;
+package offerJianZhi.linkList;
+
+import util.ListNode;
 
 import java.util.ArrayList;
 

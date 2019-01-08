@@ -1,4 +1,6 @@
-package offerJianZhi;
+package offerJianZhi.linkList;
+
+import util.ListNode;
 
 //建议再练习一边，p。next和p 的判定条件处理有问题。
 public class 链表倒数第k个节点 {
