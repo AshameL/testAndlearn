@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="777928be-bb6c-49e1-9de7-ceedbf5b32df" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dataStruction/图/BfsDfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStruction/图/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dataStruction/图/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/调整数组顺序使奇数位于偶数前面.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataStruction/Heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/tree/树的子结构.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offerJianZhi/tree/RE_第k个节点.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerJianZhi/tree/RE_第k个节点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offerJianZhi/tree/之字打印tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerJianZhi/tree/之字打印tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStruction/图/BfsDfs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStruction/Graph/BfsDfs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStruction/图/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStruction/Graph/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStruction/图/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStruction/Graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/offerJianZhi/调整数组顺序使奇数位于偶数前面.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offerJianZhi/调整数组顺序使奇数位于偶数前面.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offerJianZhi/调整数组顺序使奇数位于偶数前面.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offerJianZhi/tree/树的子结构.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="266">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dataStruction/Heap/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -82,10 +91,14 @@
         <option value="$PROJECT_DIR$/src/offerJianZhi/tree/RE_第k个节点.java" />
         <option value="$PROJECT_DIR$/src/offerJianZhi/tree/之字打印tree.java" />
         <option value="$PROJECT_DIR$/src/offerJianZhi/调整数组顺序使奇数位于偶数前面.java" />
+        <option value="$PROJECT_DIR$/src/offerJianZhi/tree/树的子结构.java" />
+        <option value="$PROJECT_DIR$/src/dataStruction/Heap/Graph/Edge.java" />
+        <option value="$PROJECT_DIR$/src/dataStruction/Heap/Edge.java" />
+        <option value="$PROJECT_DIR$/src/dataStruction/Heap/Heap.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1378" />
     <option name="height" value="780" />
   </component>
@@ -97,6 +110,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,26 +128,45 @@
               <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStruction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStruction" type="462c0819:PsiDirectoryNode" />
+              <item name="Heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offerJianZhi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="offerJianZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="b&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546939293587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546957643156" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/dataStruction/Heap" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -253,17 +287,18 @@
       <workItem from="1546850973535" duration="3709000" />
       <workItem from="1546868950518" duration="330000" />
       <workItem from="1546912706111" duration="10468000" />
+      <workItem from="1546950614196" duration="5286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31393000" />
+    <option name="totallyTimeSpent" value="36679000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="50" y="0" width="1550" height="900" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2168435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -272,7 +307,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33225808" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33225808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35967743" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -303,7 +338,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/offerJianZhi/调整数组顺序使奇数位于偶数前面.java</url>
-          <line>9</line>
+          <line>10</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -512,14 +547,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataStruction/图/Edge.java">
+    <entry file="file://$PROJECT_DIR$/src/dataStruction/Graph/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataStruction/图/BfsDfs.java">
+    <entry file="file://$PROJECT_DIR$/src/dataStruction/Graph/BfsDfs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
@@ -529,7 +564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dataStruction/图/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/dataStruction/Graph/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
@@ -558,8 +593,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offerJianZhi/调整数组顺序使奇数位于偶数前面.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="57">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStruction/Heap/Graph.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStruction/Heap/BfsDfs.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStruction/Heap/Edge.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offerJianZhi/tree/树的子结构.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataStruction/Heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
