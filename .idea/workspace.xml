@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="777928be-bb6c-49e1-9de7-ceedbf5b32df" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/dp/连续子数组的最大和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/丑数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/字符串的排列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/把数组排成最小的数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/数组中出现次数超过一半的数字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/最小的K个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offerJianZhi/第一个只出现一次的字符.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +14,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offerJianZhi/第一个只出现一次的字符.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offerJianZhi/tree/树的子结构.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="266">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataStruction/Heap/Heap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -67,7 +79,6 @@
         <option value="$PROJECT_DIR$/src/thread/join的学习/HaveJoin.java" />
         <option value="$PROJECT_DIR$/src/thread/yield学习/Main.java" />
         <option value="$PROJECT_DIR$/src/thread/多线程按顺序打印/变形_ABC打印/Main.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/tree/滑动窗口最大值.java" />
         <option value="$PROJECT_DIR$/src/leetcode/No144_PreOrder.java" />
         <option value="$PROJECT_DIR$/src/leetcode/No111_minDepth.java" />
@@ -94,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/offerJianZhi/把数组排成最小的数.java" />
         <option value="$PROJECT_DIR$/src/offerJianZhi/丑数.java" />
         <option value="$PROJECT_DIR$/src/offerJianZhi/第一个只出现一次的字符.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -109,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,7 +133,25 @@
             <path>
               <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStruction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dataStruction" type="462c0819:PsiDirectoryNode" />
+              <item name="Heap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
@@ -127,12 +159,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offerJianZhi" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="testAndlearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testAndlearn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="offerJianZhi" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.第一个只出现一次的字符">
+  <component name="RunManager">
     <configuration name="调整数组顺序使奇数位于偶数前面" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="offerJianZhi.调整数组顺序使奇数位于偶数前面" />
       <module name="testAndLearn" />
@@ -227,19 +264,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.调整数组顺序使奇数位于偶数前面" />
-      <item itemvalue="Application.字符串的排列" />
-      <item itemvalue="Application.把数组排成最小的数" />
-      <item itemvalue="Application.丑数" />
-      <item itemvalue="Application.第一个只出现一次的字符" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.第一个只出现一次的字符" />
-        <item itemvalue="Application.丑数" />
-        <item itemvalue="Application.把数组排成最小的数" />
-        <item itemvalue="Application.字符串的排列" />
         <item itemvalue="Application.调整数组顺序使奇数位于偶数前面" />
       </list>
     </recent_temporary>
@@ -272,13 +298,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46544000" />
+    <option name="totallyTimeSpent" value="46563000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="0" y="0" width="1550" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21633889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21949603" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -392,7 +418,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -571,14 +597,14 @@
     <entry file="file://$PROJECT_DIR$/src/offerJianZhi/tree/树的子结构.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dataStruction/Heap/Heap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
