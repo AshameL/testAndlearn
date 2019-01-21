@@ -16,7 +16,4 @@ public class No111_minDepth {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(1);
-    }
 }
