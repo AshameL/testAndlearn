@@ -12,29 +12,31 @@ public class No78_子集 {
         List<Integer> tempList = new ArrayList<>();
 
         Arrays.sort(nums);
-        int len = nums.length;
-        getSubset(list, tempList, 0, nums, len);
+
+        getSubset(list, tempList, 0, nums);
 
         return list;
     }
 
     private static void getSubset(List<List<Integer>> list,
-                                  List<Integer> tempList, int startLen, int[] nums, int len) {
+                                  List<Integer> tempList, int startLen, int[] nums) {
+
         list.add(new ArrayList<>(tempList));
 
-        for (int i = startLen; i < len; i++) {
+        for (int i = startLen; i < nums.length; i++) {
             tempList.add(nums[i]);
-            getSubset(list, tempList, i + 1, nums, len);
+            getSubset(list, tempList, i + 1, nums);
 
             tempList.remove(tempList.size() - 1);
         }
-        System.out.println(tempList);
+        //System.out.println(tempList);
     }
-    public static void main(String[]args){
-        int []nums = {0,1,2,3};
+
+    public static void main(String[] args) {
+        int[] nums = { 1, 2, 3};
         List<List<Integer>> list = subsets(nums);
         int len = list.size();
-        for(int i = 0 ; i < len;  i++){
+        for (int i = 0; i < len; i++) {
             System.out.println(list.get(i));
         }
     }
