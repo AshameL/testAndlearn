@@ -35,7 +35,7 @@ public class No62_不同路径 {
 
     }
 
-    // 4 dp
+    // 4 digui
     public int uniquePath(int m, int n) {
         int[][] dp = new int[100][100];
         //用dp[i][j]的值代表从起点开始，能够到达该格子（i,j）的方法数（或者路径数）

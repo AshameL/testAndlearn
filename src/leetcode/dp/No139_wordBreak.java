@@ -31,7 +31,7 @@ public class No139_wordBreak {
 
     }
 
-    //dp 解法
+    //digui 解法
 
     public boolean wordBreak_dp(String s, List<String> dict) {
         boolean[] dp = new boolean[s.length() + 1];

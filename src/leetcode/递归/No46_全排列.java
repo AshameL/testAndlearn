@@ -42,7 +42,6 @@ public class No46_全排列 {
             }
         }
 
-        return;
     }
 
     public static void main(String[] args) {

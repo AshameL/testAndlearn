@@ -1,4 +1,4 @@
-package leetcode.数组双指针;
+package leetcode.数组;
 
 public class No88_merge {
     public void merge(int[] nums1, int m, int[] nums2, int n) {

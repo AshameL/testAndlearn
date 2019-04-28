@@ -1,4 +1,4 @@
-package leetcode.数组双指针;
+package leetcode.数组;
 
 public class No59_generateMatrix {
     private int number = 1;
