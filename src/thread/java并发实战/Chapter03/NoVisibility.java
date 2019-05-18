@@ -1,4 +1,5 @@
-package thread.对象的共享;
+package thread.java并发实战.Chapter03;
+
 
 // P27-P28
 public class NoVisibility {

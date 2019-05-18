@@ -34,19 +34,22 @@ public class No329_最长递增路径 {
         int[][] dp = new int[rlen][clen];
         int max = 0;
         for (int i = 0; i < rlen; i++) {
-            for (int j = 0; j < clen; j++) max = Math.max(dfs(dp, matrix, i, j), max);
+            for (int j = 0; j < clen; j++)
+                max = Math.max(dfs(dp, matrix, i, j), max);
         }
 
         return max;
     }
 
-    public int dfs(int[][] dp, int[][] matrix, int i, int j) {
+    private int dfs(int[][] dp, int[][] matrix, int i, int j) {
         if (dp[i][j] != 0) return dp[i][j];
         dp[i][j] = 1;
         for (int[] s : state) {
             int x = i + s[0];
             int y = j + s[1];
-            if (x >= 0 && x < matrix.length && y >= 0 && y < matrix[0].length && matrix[i][j] < matrix[x][y])
+            if (x >= 0 && x < matrix.length &&
+                    y >= 0 && y < matrix[0].length &&
+                    matrix[i][j] < matrix[x][y])
                 dp[i][j] = Math.max(dp[i][j], dfs(dp, matrix, x, y) + 1);
         }
         return dp[i][j];
