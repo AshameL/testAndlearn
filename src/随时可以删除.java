@@ -1,4 +1,4 @@
-import util.ListNode;
+import algorithm.util.ListNode;
 
 public class 随时可以删除 {
 
