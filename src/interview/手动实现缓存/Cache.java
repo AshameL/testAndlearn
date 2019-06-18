@@ -57,7 +57,7 @@ public class Cache {
     }
 
     public synchronized static <T> T get(String key, Class<T> clazz) {
-        return clazz.cast(Cache.get(key));// cast??
+        return clazz.cast(Cache.get(key));// cast??【【【【【【【【【【【【【【【【【【【
     }
 
     public synchronized static Object remove(String key) {
