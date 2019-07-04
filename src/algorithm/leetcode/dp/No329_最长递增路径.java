@@ -2,7 +2,7 @@ package algorithm.leetcode.dp;
 
 /**
  * 示例 1:
- * <p>
+ * <a1Factory>
  * 输入: nums =
  * [
  * [9,9,4],
@@ -11,7 +11,7 @@ package algorithm.leetcode.dp;
  * ]
  * 输出: 4
  * 解释: 最长递增路径为 [1, 2, 6, 9]。
- * <p>
+ * <a1Factory>
  * 示例 2:
  * 输入: nums =
  * [

@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 参考：https://blog.csdn.net/u013314786/article/details/80658738
- * <p>
+ * <a1Factory>
  * 1  使用现有的缓存技术框架，比如redis,ehcache。优点：成熟，稳定，功能强大；缺点，项目需要引入对应的框架，不够轻量。
  * 2  如果不考虑分布式，只是在单线程或者多线程间作数据缓存，其实完全可以自己手写一个缓存工具。下面就来简单实现一个这样的工具。
  */

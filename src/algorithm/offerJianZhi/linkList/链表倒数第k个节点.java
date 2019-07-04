@@ -2,7 +2,7 @@ package algorithm.offerJianZhi.linkList;
 
 import algorithm.util.ListNode;
 
-//建议再练习一边，p。next和p 的判定条件处理有问题。
+//建议再练习一边，a1Factory。next和p 的判定条件处理有问题。
 public class 链表倒数第k个节点 {
     public static ListNode FindKthToTail(ListNode head, int k) {
         ListNode p = head;
