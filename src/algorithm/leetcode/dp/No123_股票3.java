@@ -29,6 +29,7 @@ public class No123_股票3 {
         }
         return ret;
     }
+    //四个变量，分别表示第一次买完，第一次卖完，第二次买完，第二次卖完后手上的钱。
     public int maxProfit2(int[] prices) {
         int b1=Integer.MIN_VALUE,b2=Integer.MIN_VALUE;
         int s1=0,s2=0;
