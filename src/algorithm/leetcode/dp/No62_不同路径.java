@@ -2,6 +2,7 @@ package algorithm.leetcode.dp;
 
 public class No62_不同路径 {
     // 1 递归
+    // 从右下角往左上角倒着来
     public int uniquePaths1(int m, int n) {
         if (m == 1 || n == 1)
             return 1;
@@ -9,6 +10,7 @@ public class No62_不同路径 {
     }
 
     // 2 记忆搜索
+    //
     public int uniquePaths2(int m, int n) {
         int[][] ways = new int[m][n];
         for (int i = 0; i < m; i++) {
@@ -35,7 +37,8 @@ public class No62_不同路径 {
 
     }
 
-    // 4 digui
+    // 4 动态规划
+
     public int uniquePath(int m, int n) {
         int[][] dp = new int[100][100];
         //用dp[i][j]的值代表从起点开始，能够到达该格子（i,j）的方法数（或者路径数）
