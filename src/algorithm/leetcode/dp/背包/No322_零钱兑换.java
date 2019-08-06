@@ -7,6 +7,21 @@ package algorithm.leetcode.dp.背包;
  * 解释: 11 = 5 + 5 + 1
  **/
 public class No322_零钱兑换 {
+    /***
+     * 定义：dp[i][j] :前i种硬币，达到j的最少的数量
+     *
+     * 转移方程：
+     *      dp[i][j] =  min(dp[i-1][j],dp[i][j- k*coin_i]+k)
+     *                  min(dp[i-1][j],dp[i][j-coin_i] +1)
+     *          解释：
+     * 答案:
+     *      dp[n-1][amount]
+     *
+     *
+     * @param coins
+     * @param amount
+     * @return
+     */
     public static int coinChange(int[] coins, int amount) {
         int m = coins.length + 1;
         int n = amount + 1;

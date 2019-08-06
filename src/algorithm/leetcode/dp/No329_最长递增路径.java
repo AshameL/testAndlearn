@@ -25,7 +25,7 @@ package algorithm.leetcode.dp;
 
 public class No329_最长递增路径 {
     int[][] state = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-
+    // dfs做法, 记忆化搜索
     public int longestIncreasingPath(int[][] matrix) {
         int rlen = matrix.length;
         if (rlen == 0) return 0;
@@ -54,4 +54,5 @@ public class No329_最长递增路径 {
         }
         return dp[i][j];
     }
+
 }
