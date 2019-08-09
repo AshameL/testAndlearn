@@ -5,11 +5,9 @@ public class 随时删除 {
        test();
     }
     private static void test(){
-        float f= 7f;
-        for(int i =0;i<3;i++){
-            f *=f;
-            System.out.println(f);
-        }
+        String abc1 = "百度科技(123)公司1";
+        abc1 = abc1.replaceAll("\\\\(","\\(").replaceAll("\\\)","\\)");
+        System.out.println(abc1);
     }
 
 }
